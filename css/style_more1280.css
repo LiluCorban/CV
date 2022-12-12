@@ -1,0 +1,10 @@
+@media (min-width: 1280px) {
+    .wrapper header .right-side {
+        width: 55%;
+    }
+    .wrapper header .right-side .card {
+       margin-right: 20%;
+    }
+}
+
+
