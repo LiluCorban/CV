@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .wrapper header {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .wrapper header .right-side h1 {
+        font-family: 'Montserrat-Bold', serif;
+        /*font-size: 30px;*/
+        margin: 0;
+    }
+    .wrapper header .left-side {
+        width: 80%;
+    }
+    .wrapper header .right-side h2 {
+        background-color: #212833;
+        padding: 8px;
+        /*font-size: 20px;*/
+        font-family: 'Agency Gothic C', serif;
+        letter-spacing: 7px;
+    }
+    .wrapper header .right-side .card {
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-around;*/
+        margin-top: 10%;
+        /*font-size: 12px;*/
+    }
+
+    .wrapper main {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .wrapper main .education {
+        width: 100%;
+        background-color: white;
+        margin-left: 0;
+    }
+    .wrapper main .work {
+        width: 100%;
+    }
+    .wrapper main .hobbies {
+        width: 100%;
+        background-color: white;
+        margin-left: 0;
+
+    }
+    .wrapper main .hobbies div {
+        font-size: 18px;
+    }
+    .wrapper main .skills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper main .skills .skills-row {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+    }
+    .wrapper main .skills .skills-row p {
+        width: 50%;
+    }
+    .wrapper main .skills .skills-row div img {
+        padding: 5px;
+        width: 5%;
+    }
+
+
+
+
+}

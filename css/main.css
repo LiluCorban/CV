@@ -1,0 +1,171 @@
+body {
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-VariableFont_wght.ttf");
+
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: 'Agency Gothic C';
+    src: url("AgencyGothicCT-Condensed.ttf");
+    
+}
+.wrapper {
+    width: 100%;
+}
+.wrapper header {
+    width: 100%;
+    background-color: #161b25;
+    display: flex;
+    }
+.wrapper header .left-side {
+    background-color: #212833;
+    width: 30%;
+    padding-top: 10%;
+    margin-left: 7%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+
+}
+.wrapper header .left-side img {
+    width: 100%;
+
+}
+.wrapper header .right-side{
+    font-family: 'Montserrat', serif;
+    color: #ffffff;
+    padding-top: 10%;
+    margin-left: 7%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+.wrapper header .right-side h1 {
+    font-family: 'Montserrat-Bold', serif;
+    font-size: 50px;
+    margin: 0;
+}
+.wrapper header .right-side h2 {
+    background-color: #212833;
+    padding: 8px;
+    font-size: 40px;
+    font-family: 'Agency Gothic C', serif;
+    letter-spacing: 10px;
+}
+.wrapper header .right-side .card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18%;
+}
+
+.wrapper main {
+    display: flex;
+    /*justify-content: space-around;*/
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+
+.wrapper main .education {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgba(22, 27, 37, 0.1);
+    margin-left: 7%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', serif;
+    padding: 5% 7% 0 5%;
+}
+.wrapper main .education p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.wrapper main .education div:nth-child(3) {
+    padding-top: 20px;
+}
+.wrapper main h2 {
+    font-size: 40px;
+    font-family: 'Montserrat-Bold', serif;
+
+}
+.wrapper main .education div {
+    padding-left: 10%;
+}
+.wrapper main .work {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: 'Montserrat', serif;
+    padding: 5% 5% 0 5%;
+    box-sizing: border-box;
+
+}
+
+
+.wrapper main .work .first-job {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper main .work .first-job p {
+   margin-bottom: 0;
+}
+.wrapper main .work .period {
+    width: 700px;
+    display: flex;
+   flex-direction: column;
+}
+.wrapper main .work .second-job {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper main .work .second-job p {
+    margin-bottom: 0;
+}
+.wrapper main .hobbies {
+    width: 30%;
+    background-color: rgba(22, 27, 37, 0.1);
+    margin-left: 7%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    padding: 5% 7% 5% 5%;
+}
+.wrapper main .hobbies div{
+    background-image: url("../img/ellipse_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:20%;
+    margin-bottom: 10%;
+}
+.wrapper main .skills {
+    width: 60%;
+    font-family: 'Montserrat', serif;
+    padding: 5% 5% 0 5%;
+    box-sizing: border-box;
+}
+.wrapper main .skills .skills-row {
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper main .skills .skills-row p{
+    width: 20%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+    font-weight:bold;
+}
+
+.wrapper main .skills .skills-row div img {
+        padding: 5px;
+        width: 10%;
+}
+
+
+
